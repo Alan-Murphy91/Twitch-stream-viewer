@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Wellfleet');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.one .middle {
+    text-align: center;
+}
+
+.iimg {
+    color: white;
+    text-align: center;
+}
+
+.iimg img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+
+
+.multiple-items a {
+    color: #33332C;
+    text-decoration: none;
+}
+
+.multiple-items a:hover {
+     color: #33332C;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.multiple-items a:visited {
+     color: #33332C;
+     text-decoration: inherit; 
+     cursor:pointer;  
+}
+
+
+.offline a {
+    color: #33332C;
+    text-decoration: none;
+}
+
+.offline a:hover {
+     color: #33332C;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.offline a:visited {
+     color: #33332C;
+     text-decoration: inherit; 
+     cursor:pointer;  
+}
+
+.slick-prev {
+    position: absolute;
+    top: 105%;
+    left: 1%;
+    color: #4B367C;
+    border-radius: 15px;
+    font-family: 'Press Start 2P';
+    background: #FAD3FA;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.slick-next {
+    position: absolute;
+    top: 105%;
+    right: 1%;
+    color: #4B367C;
+    font-family: 'Press Start 2P';
+    border-radius: 15px;
+    background: #FAD3FA;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.multiple-items {
+    color: #fff;
+}
+
+.one .well {
+    background-color: #4B367C;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    font-family: 'Wellfleet';
+}
+
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
+  font-family: 'Press Start 2P';
+  color: #4B367C;
+}
+
+body {
+  background: linear-gradient(left, white, #f7b2f7);
+  background: -webkit-linear-gradient(left, white, #f7b2f7);
+  background: -moz-linear-gradient(left, white, #f7b2f7);
+  background: -o-linear-gradient(left, white, #f7b2f7);
+  
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
